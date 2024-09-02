@@ -2,12 +2,12 @@
 const cards = [
     {
         title: "Finding Strength in Adversity",
-        quote: "The more difficulties one faces in the world, the more perfect one becomes. The more you plough and dig the ground, the more fertile it becomes. The more you sharpen the steel by grinding, the better it cuts. — ‘Abdu’l-Baha",
+        quote: "The more difficulties one faces in the world, the more perfect one becomes. The more you plough and dig the ground, the more fertile it becomes. The more you sharpen the steel by grinding, the better it cuts. — ‘Abdu’l-Bahá",
         reflection: "Consider a recent difficulty. How might this experience help you grow stronger?"
     },
     {
         title: "Endurance and Growth",
-        quote: "Difficulties are like winter; it is cold, it is dreary, but spring follows, and the bloom of the roses will appear. — Attributed to ‘Abdu’l-Baha",
+        quote: "Difficulties are like winter; it is cold, it is dreary, but spring follows, and the bloom of the roses will appear. — Attributed to ‘Abdu’l-Bahá",
         affirmation: "I have the strength to endure challenges, knowing they lead to growth."
     },
     {
@@ -92,7 +92,7 @@ const cards = [
     },
     {
         title: "Enduring Patience",
-        quote: "Patience, under all conditions, is a light that illuminates the path. — Attributed to ‘Abdu’l-Baha",
+        quote: "Patience, under all conditions, is a light that illuminates the path. — Attributed to ‘Abdu’l-Bahá",
         affirmation: "I move forward with patience and determination."
     },
     {
