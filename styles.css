@@ -13,23 +13,22 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Left-align text for better readability */
+    text-align: left;
     max-width: 400px;
     width: 100%;
-    overflow: hidden; /* Prevent text overflow */
-    word-wrap: break-word; /* Ensure text wraps within the card */
-    white-space: pre-wrap; /* Preserve spaces and line breaks */
+    overflow-wrap: break-word; /* Ensure text wraps within the card */
+    white-space: normal; /* Prevents text from running outside the card */
+    margin: 10px;
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
-    word-wrap: break-word; /* Wrap long words */
+    overflow-wrap: break-word;
 }
 
 #card-content {
     font-size: 18px;
-    line-height: 1.5; /* Space between lines for readability */
-    margin-bottom: 20px;
-    word-wrap: break-word; /* Ensure text wraps within the content area */
+    line-height: 1.6; /* More space between lines for readability */
+    overflow-wrap: break-word; /* Ensures long words wrap to the next line */
 }
