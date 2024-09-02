@@ -1,9 +1,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Use full viewport height */
     margin: 0;
     background-color: #f0f4f8; /* Light pastel background for an uplifting feel */
     padding: 20px;
@@ -22,7 +22,7 @@ body {
     color: #333333;
     overflow-wrap: break-word;
     white-space: normal;
-    margin: 20px auto;
+    margin: 20px auto; /* Center card horizontally */
     box-sizing: border-box;
 }
 
