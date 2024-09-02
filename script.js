@@ -7,7 +7,7 @@ const cards = [
     },
     {
         title: "Endurance and Growth",
-        quote: "Difficulties are like winter; it is cold, it is dreary, but spring follows, and the bloom of the roses will appear. — Attributed to ‘Abdu’l-Bahá",
+        quote: "Difficulties are like winter; it is cold, it is dreary, but spring follows, and the bloom of the roses will appear. — ‘Abdu’l-Bahá",
         affirmation: "I have the strength to endure challenges, knowing they lead to growth."
     },
     {
@@ -92,7 +92,7 @@ const cards = [
     },
     {
         title: "Enduring Patience",
-        quote: "Patience, under all conditions, is a light that illuminates the path. — Attributed to ‘Abdu’l-Bahá",
+        quote: "Patience, under all conditions, is a light that illuminates the path. — 'Abdu’l-Bahá",
         affirmation: "I move forward with patience and determination."
     },
     {
