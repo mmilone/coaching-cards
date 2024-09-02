@@ -16,19 +16,27 @@ body {
     text-align: left;
     max-width: 400px;
     width: 100%;
-    overflow-wrap: break-word; /* Ensure text wraps within the card */
-    white-space: normal; /* Prevents text from running outside the card */
+    overflow-wrap: break-word;
+    white-space: normal;
     margin: 10px;
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center; /* Center the title horizontally */
     overflow-wrap: break-word;
 }
 
 #card-content {
     font-size: 18px;
-    line-height: 1.6; /* More space between lines for readability */
-    overflow-wrap: break-word; /* Ensures long words wrap to the next line */
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+/* Add a specific style for labels (e.g., "Quote:", "Reflection:") */
+.label {
+    font-weight: bold;
+    display: block; /* Ensure each label is on its own line */
+    margin-top: 15px; /* Add some space above each label */
 }
