@@ -21,19 +21,24 @@ function generateRandomCard() {
     // Set the title
     document.getElementById('card-title').innerText = card.title;
 
-    // Collect available content items (e.g., reflection, quote, exercise, etc.)
+    // Collect content items with labels
     const contentItems = [];
     for (const [key, value] of Object.entries(card)) {
         if (key !== 'title' && value) {
-            contentItems.push(value);
+            contentItems.push(`${capitalizeFirstLetter(key)}:\n${value}`);
         }
     }
 
-    // Shuffle contentItems and pick two
+    // Shuffle and pick the first two content items
     const shuffledItems = contentItems.sort(() => 0.5 - Math.random()).slice(0, 2);
 
     // Display the selected content items
     document.getElementById('card-content').innerText = shuffledItems.join('\n\n');
+}
+
+// Helper function to capitalize the first letter
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 // Generate a card when the page loads
