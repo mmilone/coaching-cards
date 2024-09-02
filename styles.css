@@ -1,38 +1,39 @@
 body {
-    font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f4f8; /* Light pastel background for an uplifting feel */
-    padding: 20px; /* Add padding to improve mobile experience */
-    box-sizing: border-box; /* Include padding in element width/height */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .card-container {
-    background-color: #ffffff; /* White card background for simplicity and contrast */
+    background-color: #ffffff;
     padding: 25px;
-    border-radius: 12px; /* Rounded corners for a softer, more inviting look */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 500px; /* Responsive max width for larger screens */
+    max-width: 500px;
     width: 100%;
-    color: #333333; /* Soft black for readability */
+    color: #333333;
     overflow-wrap: break-word;
     white-space: normal;
-    margin: 20px auto; /* Center card with margin */
-    box-sizing: border-box; /* Include padding in element width/height */
+    margin: 20px auto;
+    box-sizing: border-box;
+    position: relative; /* Allows for absolute positioning of the button */
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 28px; /* Increase title size */
     margin-bottom: 20px;
     text-align: center;
     overflow-wrap: break-word;
     font-variant: small-caps;
     letter-spacing: 1px;
-    color: #2c3e50; /* Darker blue for a strong, uplifting title */
+    color: #2c3e50;
 }
 
 #card-content {
@@ -40,7 +41,7 @@ h1 {
     line-height: 1.6;
     text-align: center;
     overflow-wrap: break-word;
-    color: #333333; /* Consistent color for all text content */
+    color: #333333;
 }
 
 .label {
@@ -48,21 +49,42 @@ h1 {
     display: block;
     margin-top: 20px;
     text-align: center;
-    color: #2980b9; /* Bright blue for uplifting emphasis on labels */
+    color: #2980b9;
+}
+
+/* Style for the button to move it further down */
+button {
+    margin-top: 30px; /* Add margin to move button further down */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2980b9; /* Match the label color for consistency */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Position the button relative to the container */
+    bottom: 20px; /* Move the button 20px from the bottom of the card */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally */
+}
+
+button:hover {
+    background-color: #1c6390; /* Darken button color on hover */
 }
 
 /* Responsive Design */
-@media (max-width: 768px) { /* For tablets and smartphones */
+@media (max-width: 768px) {
     .card-container {
-        padding: 20px; /* Slightly reduce padding on smaller screens */
-        max-width: 90%; /* Use most of the screen width on smaller devices */
+        padding: 20px;
+        max-width: 90%;
     }
 
     h1 {
-        font-size: 20px; /* Slightly reduce title size on smaller screens */
+        font-size: 24px; /* Slightly reduce title size on smaller screens */
     }
 
     #card-content {
-        font-size: 16px; /* Slightly reduce content size for readability */
+        font-size: 16px;
     }
 }
