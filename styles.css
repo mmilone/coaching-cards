@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,6 @@ h1 {
     line-height: 1.8;
     text-align: center;
     overflow-wrap: break-word;
-    margin-top: 10px;
 }
 
 .label {
