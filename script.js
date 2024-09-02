@@ -29,7 +29,7 @@ function generateRandomCard() {
         }
     }
 
-    // Sort contentItems to maintain the order and select the first two
+    // Select the first two content items to display in order
     const selectedItems = contentItems.slice(0, 2);
 
     // Display the selected content items in order
@@ -42,4 +42,4 @@ function capitalizeFirstLetter(string) {
 }
 
 // Generate a card when the page loads
-window.onload = generateRandomCard;
+window.onload = generateRandom
