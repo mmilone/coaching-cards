@@ -13,7 +13,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: center; /* Center all text horizontally */
     max-width: 400px;
     width: 100%;
     overflow-wrap: break-word;
@@ -24,19 +24,21 @@ body {
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center; /* Center the title horizontally */
+    text-align: center; /* Center the title */
     overflow-wrap: break-word;
 }
 
 #card-content {
     font-size: 18px;
     line-height: 1.6;
+    text-align: center; /* Center the content text */
     overflow-wrap: break-word;
 }
 
-/* Add a specific style for labels (e.g., "Quote:", "Reflection:") */
+/* Ensure labels are centered and bold */
 .label {
     font-weight: bold;
-    display: block; /* Ensure each label is on its own line */
+    display: block; /* Each label on its own line */
     margin-top: 15px; /* Add some space above each label */
+    text-align: center; /* Center the label text */
 }
