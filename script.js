@@ -1,4 +1,3 @@
-
 // Array of coaching cards
 const cards = [
     {
@@ -11,38 +10,30 @@ const cards = [
         quote: "Difficulties are like winter; it is cold, it is dreary, but spring follows, and the bloom of the roses will appear. — ‘Abdu’l-Baha",
         affirmation: "I have the strength to endure challenges, knowing they lead to growth."
     },
-
-    {
-        title: "Self-Compassion",
-        tip: "Treat yourself with the same kindness you would offer to a friend in a similar situation.",
-        exercise: "Write a letter of encouragement to yourself as if you were your own best friend."
-
-    },
-
-    {
-        title: "Courage in Uncertainty",
-        Reflection: "Choosing courage over comfort is a personal challenge; it requires stepping into discomfort for growth.",
-        Exercise: "Identify one area where you can step out of your comfort zone today."
-
-    },
-
-    {
-        title: "",
-    },
-
-    {
-        title: "",
-    },
-
+    // Add more cards here...
 ];
 
 // Function to generate a random card
 function generateRandomCard() {
     const randomIndex = Math.floor(Math.random() * cards.length);
     const card = cards[randomIndex];
-    
+
+    // Set the title
     document.getElementById('card-title').innerText = card.title;
-    document.getElementById('card-content').innerText = card.quote || card.reflection || card.tip || card.exercise || card.question || card.content || card.affirmation;
+
+    // Collect available content items (e.g., reflection, quote, exercise, etc.)
+    const contentItems = [];
+    for (const [key, value] of Object.entries(card)) {
+        if (key !== 'title' && value) {
+            contentItems.push(value);
+        }
+    }
+
+    // Shuffle contentItems and pick two
+    const shuffledItems = contentItems.sort(() => 0.5 - Math.random()).slice(0, 2);
+
+    // Display the selected content items
+    document.getElementById('card-content').innerText = shuffledItems.join('\n\n');
 }
 
 // Generate a card when the page loads
