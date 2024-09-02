@@ -25,7 +25,7 @@ function generateRandomCard() {
     const contentItems = [];
     for (const [key, value] of Object.entries(card)) {
         if (key !== 'title' && value) {
-            contentItems.push(`${capitalizeFirstLetter(key)}:\n${value}`);
+            contentItems.push(`<p><strong>${capitalizeFirstLetter(key)}:</strong> ${value}</p>`);
         }
     }
 
@@ -33,7 +33,7 @@ function generateRandomCard() {
     const selectedItems = contentItems.slice(0, 2);
 
     // Display the selected content items in order
-    document.getElementById('card-content').innerText = selectedItems.join('\n\n');
+    document.getElementById('card-content').innerHTML = selectedItems.join(''); // Use innerHTML to render HTML tags
 }
 
 // Helper function to capitalize the first letter
