@@ -11,7 +11,29 @@ const cards = [
         quote: "Difficulties are like winter; it is cold, it is dreary, but spring follows, and the bloom of the roses will appear. — ‘Abdu’l-Baha",
         affirmation: "I have the strength to endure challenges, knowing they lead to growth."
     },
-    // Continue with more cards...
+
+    {
+        title: "Self-Compassion",
+        tip: "Treat yourself with the same kindness you would offer to a friend in a similar situation.",
+        exercise: "Write a letter of encouragement to yourself as if you were your own best friend."
+
+    },
+
+    {
+        title: "Courage in Uncertainty",
+        Reflection: "Choosing courage over comfort is a personal challenge; it requires stepping into discomfort for growth.",
+        Exercise: "Identify one area where you can step out of your comfort zone today."
+
+    },
+
+    {
+        title: "",
+    },
+
+    {
+        title: "",
+    },
+
 ];
 
 // Function to generate a random card
