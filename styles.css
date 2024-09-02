@@ -23,11 +23,11 @@ body {
     white-space: normal;
     margin: 20px auto;
     box-sizing: border-box;
-    position: relative; /* Allows for absolute positioning of the button */
+    position: relative; /* Remove absolute positioning of button */
 }
 
 h1 {
-    font-size: 28px; /* Increase title size */
+    font-size: 28px; /* Larger title size */
     margin-bottom: 20px;
     text-align: center;
     overflow-wrap: break-word;
@@ -52,9 +52,9 @@ h1 {
     color: #2980b9;
 }
 
-/* Style for the button to move it further down */
+/* Style for the button to keep it below the content */
 button {
-    margin-top: 30px; /* Add margin to move button further down */
+    margin-top: 30px; /* Ensure button stays below content */
     padding: 10px 20px;
     font-size: 16px;
     background-color: #2980b9; /* Match the label color for consistency */
@@ -63,10 +63,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    position: absolute; /* Position the button relative to the container */
-    bottom: 20px; /* Move the button 20px from the bottom of the card */
-    left: 50%;
-    transform: translateX(-50%); /* Center the button horizontally */
+    display: block; /* Make the button a block-level element */
+    width: auto; /* Adjust width for responsiveness */
+    margin-left: auto;
+    margin-right: auto; /* Center the button */
 }
 
 button:hover {
