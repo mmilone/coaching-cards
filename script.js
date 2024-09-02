@@ -29,11 +29,11 @@ function generateRandomCard() {
         }
     }
 
-    // Shuffle and pick the first two content items
-    const shuffledItems = contentItems.sort(() => 0.5 - Math.random()).slice(0, 2);
+    // Sort contentItems to maintain the order and select the first two
+    const selectedItems = contentItems.slice(0, 2);
 
-    // Display the selected content items
-    document.getElementById('card-content').innerText = shuffledItems.join('\n\n');
+    // Display the selected content items in order
+    document.getElementById('card-content').innerText = selectedItems.join('\n\n');
 }
 
 // Helper function to capitalize the first letter
