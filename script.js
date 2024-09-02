@@ -409,6 +409,71 @@ const cards = [
         exercise: "Choose a period today to disconnect from digital devices. Notice how it impacts your mood and focus.",
         reflection: "How did this break from technology make you feel?"
     }
+    {
+        title: "Connecting with Nature",
+        tip: "Nature has a calming and grounding effect on the mind.",
+        exercise: "Spend 10 minutes outside, noticing the natural world around you. What do you observe?"
+    },
+    {
+        title: "Self-Care Routine",
+        content: "Self-care is not selfish; it is essential.",
+        exercise: "Identify one self-care activity you can do today and make time for it."
+    },
+    {
+        title: "Practicing Forgiveness",
+        reflection: "Holding onto grudges weighs you down.",
+        exercise: "Identify one person (including yourself) you need to forgive and take the first step today."
+    },
+    {
+        title: "Mindful Walking",
+        tip: "Walk slowly and notice each step, feeling the ground beneath you and the rhythm of your body.",
+        exercise: "Go for a 10-minute mindful walk today and notice how it impacts your mood."
+    },
+    {
+        title: "The Power of Silence",
+        content: "Silence can be a source of strength and insight.",
+        exercise: "Spend 5 minutes in complete silence, observing your thoughts without judgment."
+    },
+    {
+        title: "Affirmations for Wellbeing",
+        tip: "Positive affirmations can rewire your mindset.",
+        exercise: "Choose one affirmation to repeat to yourself throughout the day."
+    },
+    {
+        title: "Mindful Listening",
+        exercise: "In your next conversation, practice mindful listening by giving your full attention and refraining from interrupting.",
+        reflection: "How did this affect the quality of your interaction?"
+    },
+    {
+        title: "Journaling for Clarity",
+        exercise: "Spend 10 minutes journaling about your current thoughts and feelings. Notice any patterns or insights that emerge.",
+        affirmation: "I find clarity through reflection."
+    },
+    {
+        title: "Creating a Morning Ritual",
+        tip: "Start your day with a mindful morning ritual to set a positive tone.",
+        exercise: "Design a morning routine that includes one mindful activity, such as meditation, stretching, or journaling."
+    },
+    {
+        title: "Loving-Kindness Meditation",
+        exercise: "Close your eyes and send loving-kindness to yourself and others by repeating: 'May I/they be happy, may I/they be healthy, may I/they be at peace.'",
+        reflection: "Notice how this exercise makes you feel."
+    },
+    {
+        title: "Progressive Muscle Relaxation",
+        tip: "Progressive relaxation helps reduce stress and tension in the body.",
+        exercise: "Tense each muscle group for 5 seconds, then release. Start from your feet and move upward."
+    },
+    {
+        title: "Finding Your Center",
+        exercise: "When feeling overwhelmed, pause and take three deep breaths, focusing on the present moment.",
+        affirmation: "I am calm and centered, no matter what arises."
+    },
+    {
+        title: "Mindful Ending to the Day",
+        tip: "End your day mindfully by reflecting on what went well and what you are grateful for.",
+        exercise: "Take 5 minutes before bed to reflect on three positive things that happened today."
+    }    
 ];
 
 // Function to generate a random card
