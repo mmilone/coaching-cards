@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100vh; /* Use full viewport height */
+    height: calc(var(--vh, 1vh) * 100); /* Dynamically calculate viewport height */
     margin: 0;
     background-color: #f0f4f8; /* Light pastel background for an uplifting feel */
     padding: 20px;
@@ -59,32 +59,4 @@ button {
     font-size: 16px;
     background-color: #2980b9; /* Match the label color for consistency */
     color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    display: block; /* Make the button a block-level element */
-    width: auto; /* Adjust width for responsiveness */
-    margin-left: auto;
-    margin-right: auto; /* Center the button */
-}
-
-button:hover {
-    background-color: #1c6390; /* Darken button color on hover */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .card-container {
-        padding: 20px;
-        max-width: 90%;
-    }
-
-    h1 {
-        font-size: 24px; /* Slightly reduce title size on smaller screens */
-    }
-
-    #card-content {
-        font-size: 16px;
-    }
-}
+    border
