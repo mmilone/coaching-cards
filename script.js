@@ -408,7 +408,7 @@ const cards = [
         title: "Digital Detox",
         exercise: "Choose a period today to disconnect from digital devices. Notice how it impacts your mood and focus.",
         reflection: "How did this break from technology make you feel?"
-    }
+    },
     {
         title: "Connecting with Nature",
         tip: "Nature has a calming and grounding effect on the mind.",
