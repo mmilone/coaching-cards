@@ -57,7 +57,7 @@ const cards = [
     },
     {
         title: "Seeking Joy",
-        content: "Joy is found in small moments.",
+        thought: "Joy is found in small moments.",
         exercise: "Identify three things that brought you joy today and reflect on them."
     },
     {
@@ -77,12 +77,12 @@ const cards = [
     },
     {
         title: "Strength in Community",
-        content: "You are not alone. Reach out to those who support you and let them in.",
+        thought: "You are not alone. Reach out to those who support you and let them in.",
         exercise: "Reach out to one person today and share how you're feeling."
     },
     {
         title: "Self-Affirmation",
-        content: "Affirm your worth and potential daily.",
+        thought: "Affirm your worth and potential daily.",
         exercise: "Write an affirmation that resonates with you and repeat it every morning."
     },
     {
@@ -121,7 +121,7 @@ const cards = [
     },
     {
         title: "Learning from Mistakes",
-        content: "Mistakes are proof that you are trying.",
+        thought: "Mistakes are proof that you are trying.",
         question: "What is one mistake you have made recently, and what did you learn from it?"
     },
     {
@@ -151,7 +151,7 @@ const cards = [
     },
     {
         title: "Evaluating Your Priorities",
-        content: "Your priorities shape your reality.",
+        thought: "Your priorities shape your reality.",
         question: "What are your current priorities, and are they aligned with what you truly want?"
     },
     {
@@ -171,7 +171,7 @@ const cards = [
     },
     {
         title: "Cultivating Self-Awareness",
-        content: "Self-awareness is the foundation of growth.",
+        thought: "Self-awareness is the foundation of growth.",
         exercise: "Spend 10 minutes today journaling about your thoughts and feelings."
     },
     {
@@ -196,7 +196,7 @@ const cards = [
     },
     {
         title: "Active Listening",
-        content: "Active listening is the foundation of meaningful communication.",
+        thought: "Active listening is the foundation of meaningful communication.",
         exercise: "In your next conversation, practice active listening by focusing fully on the speaker and asking thoughtful questions."
     },
     {
@@ -211,7 +211,7 @@ const cards = [
     },
     {
         title: "Embracing Diversity in Connections",
-        content: "Diverse connections bring new perspectives and ideas.",
+        thought: "Diverse connections bring new perspectives and ideas.",
         exercise: "Make an effort to connect with someone from a different background or field this week."
     },
     {
@@ -221,7 +221,7 @@ const cards = [
     },
     {
         title: "Nurturing Relationships",
-        content: "Relationships thrive on consistent effort and communication.",
+        thought: "Relationships thrive on consistent effort and communication.",
         exercise: "Send a message or make a call to a friend or colleague today, simply to check in and show you care."
     },
     {
@@ -231,7 +231,7 @@ const cards = [
     },
     {
         title: "Offering Genuine Compliments",
-        content: "A sincere compliment can strengthen a connection.",
+        thought: "A sincere compliment can strengthen a connection.",
         exercise: "Offer a genuine compliment to someone today and observe their reaction."
     },
     {
@@ -246,7 +246,7 @@ const cards = [
     },
     {
         title: "Effective Follow-Up",
-        content: "Following up after a meeting or event shows that you value the connection.",
+        thought: "Following up after a meeting or event shows that you value the connection.",
         exercise: "Reach out to someone you recently met and express your interest in staying in touch."
     },
     {
@@ -256,7 +256,7 @@ const cards = [
     },
     {
         title: "Active Participation in Communities",
-        content: "Being actively involved in communities helps you build trust and visibility.",
+        thought: "Being actively involved in communities helps you build trust and visibility.",
         exercise: "Engage in a community discussion or contribute to a group activity this week."
     },
     {
@@ -266,7 +266,7 @@ const cards = [
     },
     {
         title: "Expressing Appreciation",
-        content: "Appreciation strengthens bonds and encourages continued connection.",
+        thought: "Appreciation strengthens bonds and encourages continued connection.",
         exercise: "Send a note of appreciation to someone who has positively impacted your life or work."
     },
     {
@@ -281,7 +281,7 @@ const cards = [
     },
     {
         title: "Building a Reciprocal Network",
-        content: "A strong network is built on giving and receiving support.",
+        thought: "A strong network is built on giving and receiving support.",
         exercise: "Identify one person in your network who has helped you recently and find a way to reciprocate their kindness."
     },
     {
@@ -336,7 +336,7 @@ const cards = [
     },
     {
         title: "Creating Positive Habits",
-        content: "Habits are the building blocks of success.",
+        thought: "Habits are the building blocks of success.",
         exercise: "Identify one habit you want to develop and take the first step today."
     },
     {
@@ -371,7 +371,7 @@ const cards = [
     },
     {
         title: "Building Resilience in Goal Setting",
-        content: "Challenges will arise, but resilience is key to staying on track.",
+        thought: "Challenges will arise, but resilience is key to staying on track.",
         exercise: "Think of a past goal you achieved despite obstacles. What strengths did you use, and how can they help you now?"
     },
     {
@@ -416,7 +416,7 @@ const cards = [
     },
     {
         title: "Self-Care Routine",
-        content: "Self-care is not selfish; it is essential.",
+        thought: "Self-care is not selfish; it is essential.",
         exercise: "Identify one self-care activity you can do today and make time for it."
     },
     {
@@ -431,7 +431,7 @@ const cards = [
     },
     {
         title: "The Power of Silence",
-        content: "Silence can be a source of strength and insight.",
+        thought: "Silence can be a source of strength and insight.",
         exercise: "Spend 5 minutes in complete silence, observing your thoughts without judgment."
     },
     {
